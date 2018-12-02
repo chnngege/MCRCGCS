@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>webchannel测试</title>
+</head>
+<body>
+
+<div id="menuLayer">
+    
+    <input id="待发送消息" type="text" name="msgText" />
+    <input type="button" onclick="onBtnSendMsg();" value="发送消息到浏览器" />
+    
+</div>
+
+</body>
+</html>
+
+<script type="text/javascript" src="../qwebchannel.js"></script>
+<script type="text/javascript">  
+
+alert("接收到Qt发送的消息" );
+var context;
+
+// 初始化
+function init()
+{
+	//alert("接收到Qt发送的消息" );
+    if (typeof qt != 'undefined')
+    {
+        new QWebChannel(qt.webChannelTransport, function(channel)
+        {
+        context = channel.objects.context;
+        }
+        );
+    }
+    else
+    {
+        alert("qt对象获取失败！");
+    }
+}
+// 向qt发送消息
+function sendMessage(msg)
+{
+    if(typeof context == 'undefined')
+    {
+        alert("context对象获取失败！");
+    }
+    else
+    {
+        context.onMsg(msg);
+    }
+}
+// 控件控制函数
+function onBtnSendMsg()
+{
+    var cmd = document.getElementById("待发送消息").value;
+    sendMessage(cmd);   
+}
+// 接收qt发送的消息
+function recvMessage(msg)
+{
+    alert("接收到Qt发送的消息：" + msg);
+}
+init();
+</script>

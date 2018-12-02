@@ -1,0 +1,125 @@
+#include "plotthread.h"
+
+Plotthread::Plotthread()
+{
+    serial_setting = new Serialsetting;
+    serial_setting->hide();
+    disconnect(serial_setting->serial_thread, SIGNAL(data_progressfinished()), this, SLOT(plotchart()));
+}
+
+//not used
+void Plotthread::plotchart() {
+
+    append(serial_setting->serial_thread->s,YAW);
+    append(serial_setting->serial_thread->s,ROLL);
+    append(serial_setting->serial_thread->s,PITCH);
+    emit(visual_3D());
+    //ui->visualization_2->update_angles(s);//3D view
+}
+
+void Plotthread::set_ranges(int xmin, int xmax, int ymin, int ymax) {
+    _x_min = xmin;
+    _x_max = xmax;
+    _y_min = ymin;
+    _y_max = ymax;
+    chart_plot->chart()->axisX()->setRange(_x_min, _x_max);
+    chart_plot->chart()->axisY()->setRange(_y_min, _y_max);
+}
+
+void Plotthread::set_axis_names(QString x, QString y) {
+    _title_y = y;
+    chart_plot->chart()->axisX()->setTitleText(x);
+    chart_plot->chart()->axisY()->setTitleText(y);
+}
+
+void Plotthread::append(SensorData sensor_data,AYPR type_series,int currenttime) {
+
+    int dy_max=0,dy_min=0;
+    qreal data_plot = 0;
+    //init time value
+    if(_t_0==0) {
+        _t_0 = currenttime;
+        _x_min = 0;
+        _x_max = 10000;
+        chart_plot->chart()->axisX()->setRange(_x_min, _x_max);
+    }
+    currenttime-=_t_0 ;
+
+    //choose the series
+    switch(type_series) {
+    case ROLL:
+        chart_plot->_series = chart_plot->_series_roll;
+        data_plot = (qreal)sensor_data.roll;
+        break;
+
+    case YAW:
+        chart_plot->_series = chart_plot->_series_yaw;
+        data_plot = (qreal)sensor_data.yaw;
+        break;
+
+    case PITCH:
+        chart_plot->_series = chart_plot->_series_pitch;
+        data_plot = (qreal)sensor_data.pitch;
+        break;
+    default:
+        break;
+    }
+    //draw wave!!!!!!!!!!!!!!!!!!!!!!
+    chart_plot->_series->append(currenttime, data_plot);
+
+/*------------------Move the graph with the data---------------------*/
+    if(currenttime >= _x_max - 100) {
+        int dx = currenttime - _x_max + 100;
+        _x_max += dx;
+        //_x_min += dx;
+        chart_plot->chart()->axisX()->setRange(_x_min, _x_max);
+        while(chart_plot->_series->at(0).x() < _x_min)
+            chart_plot->_series->remove(0);
+    }
+
+    //first draw wave
+    if(flag_chart == 0){
+        flag_chart = 1;
+
+        if(data_plot >= _y_max - 20) {
+            dy_max = (int)data_plot - (_y_max - 20);
+            _y_max += dy_max;
+            chart_plot->chart()->axisY()->setRange(_y_min, _y_max);
+
+        } else if(data_plot <= _y_min + 20) {
+            dy_min = (_y_min + 20) - (int)data_plot;
+            _y_min -= dy_min;
+            chart_plot->chart()->axisY()->setRange(_y_min, _y_max);
+        }
+
+        if(data_plot > _y_min + 25)  {
+            dy_min = (int)data_plot - (_y_min + 25);
+            _y_min += dy_min;
+            chart_plot->chart()->axisY()->setRange(_y_min, _y_max);
+        }
+        if(data_plot < _y_max - 25)  {
+            dy_max = (_y_max - 25) - (int)data_plot;
+            _y_max -= dy_max;
+            chart_plot->chart()->axisY()->setRange(_y_min, _y_max);
+        }
+    }
+    // not first draw wave
+    // Rescale y axis if values goes too high
+    if(data_plot >= _y_max - 20) {
+        dy_max = (int)data_plot - (_y_max - 20);
+        _y_max += dy_max;
+        chart_plot->chart()->axisY()->setRange(_y_min, _y_max);
+
+    } else if(data_plot <= _y_min + 20) {
+        dy_min = (_y_min + 20) - (int)data_plot;
+        _y_min -= dy_min;
+        chart_plot->chart()->axisY()->setRange(_y_min, _y_max);
+    }
+}
+
+void Plotthread::clear_data() {
+    chart_plot->_series_roll->clear();
+    chart_plot->_series_pitch->clear();
+    chart_plot->_series_yaw->clear();
+    _t_0 = 0;//restart draw
+}

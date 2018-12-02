@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/html">
+        <file>map/offlinemap_demo/demo/1_11.html</file>
+    </qresource>
+</RCC>

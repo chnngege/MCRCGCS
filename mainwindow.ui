@@ -1,0 +1,5741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>624</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>170</red>
+        <green>170</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>170</red>
+        <green>170</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>170</red>
+        <green>170</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="toolwidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1251</width>
+      <height>59</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(196, 200, 220);
+border:1px solid;
+border-bottom-color: rgb(85, 87, 83);
+border-right-color: rgb(85, 87, 83);</string>
+    </property>
+    <widget class="QToolButton" name="toolButton_setting">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>1</y>
+       <width>59</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>设置</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource/images.qrc">
+       <normaloff>:/icons/droneicon/tool_tools_128px_524021_easyicon.net.ico</normaloff>:/icons/droneicon/tool_tools_128px_524021_easyicon.net.ico</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_8">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>遥测</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource/images.qrc">
+       <normaloff>:/icons/icons_10.31/drone_128px_1219960_easyicon.net.ico</normaloff>
+       <normalon>:/icons/droneicon/btn_connected.png</normalon>:/icons/icons_10.31/drone_128px_1219960_easyicon.net.ico</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_9">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>地图</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource/images.qrc">
+       <normaloff>:/icons/icons_10.31/04_maps.ico</normaloff>
+       <normalon>:/icons/icons_10.31/04_maps.ico</normalon>:/icons/icons_10.31/04_maps.ico</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_10">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>通讯</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/off.bmp</normaloff>
+       <normalon>:/icons/toolbutton/on.bmp</normalon>:/ICONS/ICONS/tool/off.bmp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_serial">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>串口</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource/images.qrc">
+       <normaloff>:/icons/icons_10.31/connect_128px_1083845_easyicon.net.ico</normaloff>
+       <normalon>:/icons/icons_10.31/connect_128px_1083845_easyicon.net.ico</normalon>:/icons/icons_10.31/connect_128px_1083845_easyicon.net.ico</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_12">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>重飞</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/reset.bmp</normaloff>
+       <normalon>:/icons/toolbutton/1267486145_restart(30px).bmp</normalon>:/ICONS/ICONS/tool/reset.bmp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_13">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>返航</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/1.bmp</normaloff>
+       <normalon>:/icons/toolbutton/1.bmp</normalon>:/ICONS/ICONS/tool/1.bmp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_14">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>重复</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/1267486145_restart(30px).bmp</normaloff>
+       <normalon>:/icons/toolbutton/1.jpg</normalon>:/ICONS/ICONS/tool/1267486145_restart(30px).bmp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_15">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);;
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>循环</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/loiter1.bmp</normaloff>
+       <normalon>:/icons/toolbutton/loiter1.bmp</normalon>:/ICONS/ICONS/tool/loiter1.bmp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_16">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>下降</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/Para_Yl.bmp</normaloff>
+       <normalon>:/icons/toolbutton/Para_Yl.bmp</normalon>:/ICONS/ICONS/tool/Para_Yl.bmp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_17">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>摄像</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/FlyCam_Yl.bmp</normaloff>
+       <normalon>:/icons/droneicon/video_128px_26776_easyicon.net.ico</normalon>:/ICONS/ICONS/tool/FlyCam_Yl.bmp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_18">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); }</string>
+     </property>
+     <property name="text">
+      <string>飞行</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/planeind_red_32.bmp</normaloff>
+       <normalon>:/icons/toolbutton/planeind_red_32.bmp</normalon>:/ICONS/ICONS/tool/planeind_red_32.bmp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_19">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); 
+padding-left:3px; padding-top:3px;border-style: inset;}</string>
+     </property>
+     <property name="text">
+      <string>电量</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/mot2.bmp</normaloff>
+       <normalon>:/icons/toolbutton/mot2.bmp</normalon>:/ICONS/ICONS/tool/mot2.bmp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_20">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);
+padding-left:3px; padding-top:3px;border-style: inset; }</string>
+     </property>
+     <property name="text">
+      <string>停止</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/mot3.bmp</normaloff>
+       <normalon>:/icons/toolbutton/mot3.bmp</normalon>:/ICONS/ICONS/tool/mot3.bmp</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_mappoints">
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>1</y>
+       <width>60</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{color: rgb(0, 0, 0);
+border: 2px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255);
+border-right-color: rgb(136, 138, 133);
+}
+
+QToolButton:hover{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133);}
+
+QToolButton:pressed{border: 2px solid ;
+background-color: white;
+border-right-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(136, 138, 133); 
+padding-left:3px; padding-top:3px;border-style: inset;}</string>
+     </property>
+     <property name="text">
+      <string>航迹</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>:/ICONS/ICONS/tool/plane1.png</normaloff>
+       <normalon>:/icons/toolbutton/plane1.png</normalon>:/ICONS/ICONS/tool/plane1.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+     <property name="popupMode">
+      <enum>QToolButton::DelayedPopup</enum>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="msgEdit">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>30</y>
+       <width>113</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSend">
+     <property name="geometry">
+      <rect>
+       <x>1060</x>
+       <y>30</y>
+       <width>84</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{background-color:white; color: black;}
+
+QPushButton:hover{background-color:black;color: white;    border: 2px groove gray;border-style: outset;}
+
+QPushButton:pressed{background-color:rgb(85, 170, 255);border-style: inset; }</string>
+     </property>
+     <property name="text">
+      <string>clearpoint</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>0</y>
+       <width>71</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>1050</x>
+       <y>0</y>
+       <width>80</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton#nsccButton {
+        border: none;
+        color: rgb(2, 65, 132);
+        background: transparent;
+        padding: 10px;
+        qproperty-icon: url(:/White/nscc);
+        qproperty-iconSize: 32px 32px;
+        qproperty-toolButtonStyle: ToolButtonTextUnderIcon;
+}
+QToolButton#nsccButton:hover {
+        background: rgb(187, 212, 238);
+}
+
+QToolButton#transferButton {
+        border: none;
+        color: rgb(2, 65, 132);
+        background: transparent;
+        padding: 10px;
+        qproperty-icon: url(:/White/transfer);
+        qproperty-iconSize: 32px 32px;
+        qproperty-toolButtonStyle: ToolButtonTextUnderIcon;
+}
+QToolButton#transferButton:hover {
+        background: rgb(187, 212, 238);
+}
+
+/**********按钮**********/
+QPushButton{
+        border-radius: 4px;
+        border: none;
+        width: 75px;
+        height: 25px;
+}
+QPushButton:enabled {
+        background: rgb(120, 170, 220);
+        color: white;
+}
+QPushButton:!enabled {
+        background: rgb(180, 180, 180);
+        color: white;
+}
+QPushButton:enabled:hover{
+        background: rgb(100, 160, 220);
+}
+QPushButton:enabled:pressed{
+        background: rgb(0, 78, 161);
+}
+
+QPushButton#blueButton {
+        color: white;
+}
+QPushButton#blueButton:enabled {
+        background: rgb(0, 78, 161);
+        color: white;
+}
+QPushButton:!enabled {
+        background: rgb(180, 180, 180);
+        color: white;
+}
+QPushButton#blueButton:enabled:hover {
+        background: rgb(2, 65, 132);
+}
+QPushButton#blueButton:enabled:pressed {
+        background: rgb(6, 94, 187);
+}
+
+QPushButton#selectButton {
+        border: none;
+        border-radius: none;
+        border-left: 1px solid rgb(111, 156, 207);
+        background: transparent;
+        image: url(:/White/scan);
+        color: rgb(51, 51, 51);
+}
+QPushButton#selectButton:enabled:hover{
+        background: rgb(187, 212, 238);
+}
+QPushButton#selectButton:enabled:pressed{
+        background: rgb(120, 170, 220);
+}
+
+QPushButton#linkButton {
+        background: transparent;
+        color: rgb(0, 160, 230);
+        text-align:left;
+}
+QPushButton#linkButton:hover {
+        color: rgb(20, 185, 255);
+        text-decoration: underline;
+}
+QPushButton#linkButton:pressed {
+        color: rgb(0, 160, 230);
+}
+
+QPushButton#transparentButton {
+        background: transparent;
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_11" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>291</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(196, 200, 220);
+border:2px solid ;
+border-color: transparent;</string>
+    </property>
+    <widget class="QGraphicsView" name="graphicsView">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-1</y>
+       <width>200</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGraphicsView {
+   border: 1px solid white ;
+   border-radius: 1px;
+   text-align: center;
+	background-color: rgb(255, 255, 255);
+	border-right-color: rgb(255, 255, 255);
+	border-left-color: rgb(85, 87, 83);
+}</string>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="magView">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>230</y>
+       <width>200</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGraphicsView {
+   border: 1px solid white;
+   border-radius: 1px;
+   text-align: center;
+	background-color: rgb(196, 200, 220);
+	border-left-color: rgb(85, 87, 83);
+}</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_20" native="true">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>0</y>
+       <width>56</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+   border: 1px solid black;
+   border-radius: 1px;
+   text-align: center;
+ 
+	border-bottom-color: rgb(136, 138, 133);
+	background-color: rgb(0,0,0);
+}</string>
+     </property>
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>COM REA</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QSlider" name="verticalSlider">
+     <property name="geometry">
+      <rect>
+       <x>261</x>
+       <y>190</y>
+       <width>19</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+       <horstretch>5</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(114, 159, 207);
+selection-background-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="value">
+      <number>25</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>259</x>
+       <y>270</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(238, 238, 236);
+border-top-color: rgb(136, 138, 133);
+border-left-color: rgb(186, 189, 182);
+border-bottom-color: rgb(255, 255, 255);
+border-right-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_21" native="true">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>41</y>
+       <width>56</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+   border: 1px solid white;
+   border-radius: 1px;
+   text-align: center;
+	border-left-color: rgb(0, 0, 0);
+	background-color: rgb(184, 45, 96);
+	border-right-color: rgb(0, 0, 0);
+	border-top-color: rgb(0, 0, 0);
+	border-bottom-color: rgb(136, 138, 133);
+}</string>
+     </property>
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>COM REA</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_22" native="true">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>80</y>
+       <width>56</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+   border: 1px solid white;
+   border-radius: 1px;
+   text-align: center;
+	border-left-color: rgb(0, 0, 0);
+	border-right-color: rgb(0, 0, 0);
+	background-color: rgb(184, 45, 96);
+	border-top-color: rgb(0, 0, 0);
+	border-bottom-color: rgb(136, 138, 133);
+}</string>
+     </property>
+     <widget class="QLabel" name="label_37">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>COM REA</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_23" native="true">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>111</y>
+       <width>56</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+   border: 1px solid white;
+   border-radius: 1px;
+   text-align: center;
+	border-left-color: rgb(0, 0, 0);
+	border-right-color: rgb(0, 0, 0);
+	background-color: rgb(73, 233, 249);
+	border-top-color: rgb(0, 0, 0);
+	border-bottom-color: rgb(136, 138, 133);
+}</string>
+     </property>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>COM REA</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_24" native="true">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>143</y>
+       <width>56</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+   border: 1px solid white;
+   border-radius: 1px;
+   text-align: center;
+	border-right-color: rgb(0, 0, 0);
+	border-left-color: rgb(0, 0, 0);
+	background-color: rgb(115, 210, 22);
+	border-top-color: rgb(0, 0, 0);
+	border-bottom-color: rgb(136, 138, 133);
+}</string>
+     </property>
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>14</x>
+        <y>2</y>
+        <width>31</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(52, 101, 164);
+border:none;</string>
+      </property>
+      <property name="text">
+       <string>GPS</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>COM REA</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_40">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>COM REA</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_41">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>COM REA</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_25" native="true">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>240</y>
+       <width>56</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+   border: 1px solid white;
+   border-radius: 1px;
+   text-align: center;
+ 
+	border-left-color: rgb(0, 0, 0);
+	border-right-color: rgb(0, 0, 0);
+	border-top-color: rgb(0, 0, 0);
+	border-bottom-color: rgb(136, 138, 133);
+	background-color: rgb(0, 0, 0);
+}</string>
+     </property>
+     <widget class="QLabel" name="label_42">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>COM REA</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_26" native="true">
+     <property name="geometry">
+      <rect>
+       <x>202</x>
+       <y>290</y>
+       <width>56</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+   border: 1px solid white;
+   border-radius: 1px;
+   text-align: center;
+	border-left-color: rgb(0, 0, 0);
+	border-right-color: rgb(0, 0, 0);
+  	border-top-color: rgb(0, 0, 0);
+	border-bottom-color: rgb(136, 138, 133);
+	background-color: rgb(13, 119, 90);
+	border-top-color: rgb(0, 0, 0);
+	border-bottom-color: rgb(136, 138, 133);
+}</string>
+     </property>
+     <widget class="QLabel" name="label_43">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>61</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>COM REA</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>521</y>
+       <width>291</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid ;
+border-top-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 57 10pt &quot;aakar&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Han.ao TUK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>0</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 57 10pt &quot;aakar&quot;;</string>
+      </property>
+      <property name="text">
+       <string>0 M / 6ok.OTKN</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>0</y>
+        <width>31</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 57 10pt &quot;aakar&quot;;</string>
+      </property>
+      <property name="text">
+       <string>0M</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="view_GPS" native="true">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>0</y>
+       <width>49</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(139, 212, 255);
+border-color: rgb(139, 212, 255);
+</string>
+     </property>
+     <widget class="QLabel" name="view_GPStext">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+font: 6pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>GPS</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="view_GPSlabel">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>6</y>
+        <width>31</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 75 7pt &quot;Noto Sans&quot;;
+color: rgb(164, 0, 0);
+background:transparent</string>
+      </property>
+      <property name="text">
+       <string>0.368</string>
+      </property>
+     </widget>
+     <zorder>view_GPSlabel</zorder>
+     <zorder>view_GPStext</zorder>
+    </widget>
+    <widget class="QWidget" name="widget_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>200</y>
+       <width>200</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+border:2px solid;</string>
+     </property>
+     <widget class="QLabel" name="view_GPStext_11">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>0</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+font: 57 8pt &quot;aakar&quot;;</string>
+      </property>
+      <property name="text">
+       <string>CKOP.BEPT</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="view_GPStext_12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>13</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+font: 57 9pt &quot;aakar&quot;;</string>
+      </property>
+      <property name="text">
+       <string>0.0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="view_GPStext_14">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>14</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+font: 57 9pt &quot;aakar&quot;;</string>
+      </property>
+      <property name="text">
+       <string>m/c</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="view_rightup" native="true">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>49</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(139, 212, 255);
+border-color: rgb(139, 212, 255);</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="view_leftup" native="true">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(139, 212, 255);
+border-color: rgb(139, 212, 255);
+</string>
+     </property>
+     <widget class="QLabel" name="view_GPStext_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+font: 6pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>GPS</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="view_GPSlabel_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>-4</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 75 7pt &quot;Noto Sans&quot;;
+color: rgb(164, 0, 0);
+background:transparent</string>
+      </property>
+      <property name="text">
+       <string>0.368</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="view_GPSlabel_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>15</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 75 7pt &quot;Noto Sans&quot;;
+color: rgb(164, 0, 0);
+background:transparent</string>
+      </property>
+      <property name="text">
+       <string>0.368</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="view_roll" native="true">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>80</y>
+       <width>31</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(128, 64, 64);
+border-color: rgb(128, 64, 64);</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="view_leftdown" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>170</y>
+       <width>61</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(143, 89, 2);
+border-color: rgb(255, 255, 255);
+border:1px;
+</string>
+     </property>
+     <widget class="QLabel" name="view_GPStext_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-4</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+font: 6pt &quot;Noto Sans&quot;;
+color: rgb(252, 233, 79);</string>
+      </property>
+      <property name="text">
+       <string>CKOP.BOR</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="view_GPStext_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(252, 233, 79);</string>
+      </property>
+      <property name="text">
+       <string>0.0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="view_GPStext_6">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>9</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+font: 8pt &quot;Noto Sans&quot;;
+color: rgb(252, 233, 79);</string>
+      </property>
+      <property name="text">
+       <string>km/s</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="view_rightdown" native="true">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>170</y>
+       <width>60</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(143, 89, 2);
+border-right-color: rgb(164, 0, 0);
+border-color: rgb(255, 255, 255);
+border:1px;
+</string>
+     </property>
+     <widget class="QLabel" name="view_GPStext_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-4</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+font: 6pt &quot;Noto Sans&quot;;
+color: rgb(138, 226, 52);</string>
+      </property>
+      <property name="text">
+       <string>CKOP.BOR</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="view_GPStext_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(138, 226, 52);</string>
+      </property>
+      <property name="text">
+       <string>0.0</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="view_GPStext_9">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>9</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+font: 8pt &quot;Noto Sans&quot;;
+color: rgb(138, 226, 52);</string>
+      </property>
+      <property name="text">
+       <string>km/s</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="view_pitch" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>80</y>
+       <width>31</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(128, 64, 64);
+border-color: rgb(128, 64, 64);</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>350</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+border:1px solid;
+color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);</string>
+     </property>
+     <widget class="QLabel" name="label_mag_center">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+border-color:transparent;
+color: rgb(255, 255, 255);
+font: 57 11pt &quot;aakar&quot;;</string>
+      </property>
+      <property name="text">
+       <string>223</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>490</y>
+       <width>20</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>431</y>
+       <width>261</width>
+       <height>90</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid;
+border:1px solid;border-color: rgb(255, 255, 255);
+border-left-color: rgb(85, 87, 83);
+border-top-color: rgb(136, 138, 133);
+border-bottom-color: rgb(136, 138, 133);</string>
+     </property>
+     <widget class="QProgressBar" name="progressBar_left3">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>52</y>
+        <width>129</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QProgressBar {
+   border: 2px solid grey;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+}
+ 
+QProgressBar::chunk {
+   background-color: rgb(0, 0, 0);
+   width: 20px;
+}
+ 
+QProgressBar {
+   border: 1px solid grey;
+   border-radius: 1px;
+   text-align: center;
+	color: rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="value">
+       <number>50</number>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_left3_2">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>74</y>
+        <width>129</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QProgressBar {
+   border: 2px solid grey;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+}
+ 
+QProgressBar::chunk {
+   background-color: rgb(0, 0, 0);
+   width: 20px;
+}
+ 
+QProgressBar {
+   border: 1px solid grey;
+   border-radius: 1px;
+   text-align: center;
+	color: rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="value">
+       <number>50</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>51</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 57 9pt &quot;aakar&quot;;
+border-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Right</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_9" native="true">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>71</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(110, 9, 9);
+background-color: rgb(13, 119, 90);</string>
+      </property>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>CAN OK</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>5</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 57 9pt &quot;aakar&quot;;
+border-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Motor</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_left1">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>5</y>
+        <width>129</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QProgressBar {
+   border: 1px solid black;
+   border-radius: 1px;
+   background-color: #FFFFFF;
+}
+ 
+QProgressBar::chunk {
+   background-color: rgb(38, 33, 217);
+   width: 20px;
+}
+ 
+QProgressBar {
+   border: 1px solid grey;
+   border-radius: 1px;
+   text-align: center;
+	color: rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="value">
+       <number>75</number>
+      </property>
+      <property name="textVisible">
+       <bool>true</bool>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="textDirection">
+       <enum>QProgressBar::BottomToTop</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>28</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 57 9pt &quot;aakar&quot;;
+border-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Left </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>76</y>
+        <width>61</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 57 9pt &quot;aakar&quot;;
+border-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>Wing</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_left2">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>28</y>
+        <width>129</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QProgressBar {
+   border: 2px solid black;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+
+}
+ 
+QProgressBar::chunk {
+   background-color: rgb(0, 0, 0);
+   width: 20px;
+}
+ 
+QProgressBar {
+   border: 1px solid grey;
+   border-radius: 1px;
+   text-align: center;
+	color: rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="value">
+       <number>50</number>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_15" native="true">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>54</y>
+        <width>60</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(110, 9, 9);
+border-color: rgb(110, 9, 9);</string>
+      </property>
+      <widget class="QLabel" name="label_26">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>MAP OK</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_58" native="true">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>37</y>
+        <width>60</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(110, 9, 9);
+border-color: rgb(110, 9, 9);</string>
+      </property>
+      <widget class="QLabel" name="label_27">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>FLIGHT</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_59" native="true">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>20</y>
+        <width>60</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(110, 9, 9);
+border-color: rgb(110, 9, 9);</string>
+      </property>
+      <widget class="QLabel" name="label_28">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>GPS REA</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_16" native="true">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>3</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(110, 9, 9);
+background-color: rgb(13, 119, 90);</string>
+      </property>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>COM REA</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_30" native="true">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>362</y>
+       <width>60</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(240, 240, 240);
+border:2px solid;
+border-color: rgb(255, 255, 255);
+border-left-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);</string>
+     </property>
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>2</y>
+        <width>31</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(13, 119, 90);
+border:none;</string>
+      </property>
+      <property name="text">
+       <string>0A+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_pitch">
+     <property name="geometry">
+      <rect>
+       <x>3</x>
+       <y>80</y>
+       <width>30</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+border-color:transparent;
+color: rgb(255, 255, 255);
+font: 75 9pt &quot;Noto Sans&quot;;</string>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_GPStext_10">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>200</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+font: 57 8pt &quot;aakar&quot;;</string>
+     </property>
+     <property name="text">
+      <string>CKOP.BEPT</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_GPStext_15">
+     <property name="geometry">
+      <rect>
+       <x>159</x>
+       <y>214</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+font: 57 9pt &quot;aakar&quot;;</string>
+     </property>
+     <property name="text">
+      <string>km/c</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_GPStext_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+font: 6pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>GPS</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_GPStext_13">
+     <property name="geometry">
+      <rect>
+       <x>119</x>
+       <y>216</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+font: 57 9pt &quot;aakar&quot;;</string>
+     </property>
+     <property name="text">
+      <string>0.0</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="view_GPSlabel_5">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>26</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 75 7pt &quot;Noto Sans&quot;;
+color: rgb(164, 0, 0);
+background:transparent</string>
+     </property>
+     <property name="text">
+      <string>0.368</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_roll">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>80</y>
+       <width>30</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+border-color:transparent;
+color: rgb(255, 255, 255);
+font: 75 9pt &quot;Noto Sans&quot;;</string>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_19" native="true">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>0</y>
+       <width>21</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 217, 236);
+border:1px solid;
+border-left-color: rgb(255, 255, 255);
+border-top-color: rgb(85, 87, 83);
+border-right-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(164, 0, 0);
+
+font: 6pt &quot;Noto Sans&quot;;
+border-color: rgb(136, 138, 133);
+border-left-color: rgb(255, 255, 255);
+border-bottom-color: transparent;
+border-right-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>KTN</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_8">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>16</y>
+        <width>16</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QProgressBar{
+        border: none;
+        color: black;
+        text-align: center;
+	border-left-color: rgb(255, 255, 255);
+        background: rgb(255, 255, 255);
+}
+QProgressBar::chunk {
+        border: none;
+        background:  rgb(0, 0, 0);
+	
+}
+</string>
+      </property>
+      <property name="value">
+       <number>26</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="textDirection">
+       <enum>QProgressBar::BottomToTop</enum>
+      </property>
+      <property name="format">
+       <string>%p%</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_27" native="true">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>95</y>
+       <width>21</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(52, 101, 164);
+border:1px solid;
+border-left-color: rgb(255, 255, 255);
+border-top-color: rgb(85, 87, 83);
+border-right-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+
+font: 6pt &quot;Noto Sans&quot;;
+border-color: rgb(136, 138, 133);
+border-left-color: rgb(255, 255, 255);
+border-bottom-color: transparent;
+border-right-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>KTN</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_9">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>16</y>
+        <width>16</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QProgressBar{
+        border: none;
+        color: black;
+        text-align: center;
+	border-left-color: rgb(255, 255, 255);
+        background: rgb(255, 255, 255);
+}
+QProgressBar::chunk {
+        border: none;
+        background:  rgb(0, 0, 0);
+	
+}
+</string>
+      </property>
+      <property name="value">
+       <number>26</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="textVisible">
+       <bool>false</bool>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="textDirection">
+       <enum>QProgressBar::BottomToTop</enum>
+      </property>
+      <property name="format">
+       <string>%p%</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_31" native="true">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>300</y>
+       <width>21</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(52, 101, 164);
+border:1px solid;
+border-left-color: rgb(255, 255, 255);
+border-top-color: rgb(85, 87, 83);
+border-right-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <widget class="QProgressBar" name="progressBar_11">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>5</y>
+        <width>16</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QProgressBar{
+        border: none;
+        color: black;
+        text-align: center;
+	border-left-color: rgb(255, 255, 255);
+        background: rgb(255, 255, 255);
+}
+QProgressBar::chunk {
+        border: none;
+	background-color: rgb(204, 0, 0);
+
+	
+}
+</string>
+      </property>
+      <property name="value">
+       <number>26</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="textVisible">
+       <bool>true</bool>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="textDirection">
+       <enum>QProgressBar::BottomToTop</enum>
+      </property>
+      <property name="format">
+       <string>%p</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_32" native="true">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>400</y>
+       <width>21</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(117, 80, 123);
+border:1px solid;
+border-left-color: rgb(255, 255, 255);
+border-top-color: rgb(85, 87, 83);
+border-right-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+
+font: 6pt &quot;Noto Sans&quot;;
+border-color: rgb(136, 138, 133);
+border-left-color: rgb(255, 255, 255);
+border-bottom-color: transparent;
+border-right-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>BGP</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_16">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>16</y>
+        <width>16</width>
+        <height>72</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QProgressBar{
+        border: none;
+        color: black;
+        text-align: center;
+	border-left-color: rgb(255, 255, 255);
+        background: rgb(255, 255, 255);
+}
+QProgressBar::chunk {
+        border: none;
+        
+	background-color: rgb(193, 125, 17);
+	
+}
+</string>
+      </property>
+      <property name="value">
+       <number>26</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="textVisible">
+       <bool>true</bool>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="textDirection">
+       <enum>QProgressBar::BottomToTop</enum>
+      </property>
+      <property name="format">
+       <string>%p</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_60" native="true">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>385</y>
+       <width>60</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(240, 240, 240);
+border:2px solid;
+border-color: rgb(255, 255, 255);
+border-left-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);</string>
+     </property>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>2</y>
+        <width>31</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(13, 119, 90);
+border:none;</string>
+      </property>
+      <property name="text">
+       <string>0A</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_61" native="true">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>408</y>
+       <width>60</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(240, 240, 240);
+border:2px solid;
+border-color: rgb(255, 255, 255);
+border-left-color: rgb(136, 138, 133);
+border-top-color: rgb(136, 138, 133);</string>
+     </property>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>2</y>
+        <width>31</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(13, 119, 90);
+border:none;</string>
+      </property>
+      <property name="text">
+       <string>0B</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_30">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>340</y>
+       <width>54</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(92, 53, 102);</string>
+     </property>
+     <property name="text">
+      <string>Battery</string>
+     </property>
+    </widget>
+    <zorder>graphicsView</zorder>
+    <zorder>magView</zorder>
+    <zorder>widget_20</zorder>
+    <zorder>verticalSlider</zorder>
+    <zorder>pushButton_3</zorder>
+    <zorder>widget_21</zorder>
+    <zorder>widget_22</zorder>
+    <zorder>widget_23</zorder>
+    <zorder>widget_24</zorder>
+    <zorder>widget_25</zorder>
+    <zorder>widget_26</zorder>
+    <zorder>widget_2</zorder>
+    <zorder>view_GPS</zorder>
+    <zorder>view_rightup</zorder>
+    <zorder>view_leftup</zorder>
+    <zorder>view_roll</zorder>
+    <zorder>view_leftdown</zorder>
+    <zorder>view_rightdown</zorder>
+    <zorder>view_pitch</zorder>
+    <zorder>widget_5</zorder>
+    <zorder>widget_6</zorder>
+    <zorder>widget_7</zorder>
+    <zorder>widget_8</zorder>
+    <zorder>widget_30</zorder>
+    <zorder>label_pitch</zorder>
+    <zorder>view_GPStext_10</zorder>
+    <zorder>view_GPStext_15</zorder>
+    <zorder>view_GPStext_2</zorder>
+    <zorder>view_GPStext_13</zorder>
+    <zorder>view_GPSlabel_5</zorder>
+    <zorder>label_roll</zorder>
+    <zorder>widget_19</zorder>
+    <zorder>widget_27</zorder>
+    <zorder>widget_31</zorder>
+    <zorder>widget_32</zorder>
+    <zorder>widget_60</zorder>
+    <zorder>widget_61</zorder>
+    <zorder>label_30</zorder>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget_rightmap">
+    <property name="geometry">
+     <rect>
+      <x>281</x>
+      <y>59</y>
+      <width>971</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>931</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border:1px solid rgb(255,255,255);</string>
+      </property>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>8</x>
+         <y>12</y>
+         <width>161</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(255,255,255)</string>
+       </property>
+       <widget class="QLineEdit" name="lineEdit_44">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>X.m/s2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_acc_x">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>20</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 11pt &quot;Noto Sans&quot;;
+color: rgb(0, 190, 255);</string>
+        </property>
+        <property name="text">
+         <string>-0.17</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_45">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>Y.m/s2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_acc_y">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>50</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 11pt &quot;Noto Sans&quot;;
+color: rgb(0, 190, 255);</string>
+        </property>
+        <property name="text">
+         <string>-0.17</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_46">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>Z.m/s2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_acc_z">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>80</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 11pt &quot;Noto Sans&quot;;
+color: rgb(0, 190, 255);</string>
+        </property>
+        <property name="text">
+         <string>-0.17</string>
+        </property>
+       </widget>
+       <widget class="Visualization" name="visualization_3D">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>-10</y>
+          <width>811</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>200</height>
+         </size>
+        </property>
+       </widget>
+       <zorder>visualization_3D</zorder>
+       <zorder>lineEdit_44</zorder>
+       <zorder>label_acc_x</zorder>
+       <zorder>lineEdit_45</zorder>
+       <zorder>label_acc_y</zorder>
+       <zorder>lineEdit_46</zorder>
+       <zorder>label_acc_z</zorder>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>7</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>Accelerometer </string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>12</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(255,255,255)</string>
+       </property>
+       <widget class="QLabel" name="label_gyro_y">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>50</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 11pt &quot;Noto Sans&quot;;
+color: rgb(255, 109, 219);</string>
+        </property>
+        <property name="text">
+         <string>0.46</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_gyro_x">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>20</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 11pt &quot;Noto Sans&quot;;
+color: rgb(255, 109, 219);</string>
+        </property>
+        <property name="text">
+         <string>60.8</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_gyro_z">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>80</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 11pt &quot;Noto Sans&quot;;
+color: rgb(255, 109, 219);</string>
+        </property>
+        <property name="text">
+         <string>-0.17</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_49">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>X.°/s</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_47">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>X.°/s</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_48">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>X.°/s</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_12" native="true">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>12</y>
+         <width>261</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(255,255,255)</string>
+       </property>
+       <widget class="QLineEdit" name="lineEdit_69">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>Barometer :</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_70">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>Barometer :</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_71">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>50</y>
+          <width>111</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>Yaw.Compass :</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_72">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>70</y>
+          <width>101</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>Temperature :</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_73">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>90</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>Battery Voltage :</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_13" native="true">
+       <property name="geometry">
+        <rect>
+         <x>8</x>
+         <y>145</y>
+         <width>431</width>
+         <height>115</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(255,255,255);
+font: 57 9pt &quot;aakar&quot;;</string>
+       </property>
+       <widget class="QLineEdit" name="lineEdit_50">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>YAW</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_51">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>PITCH</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_52">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>ROLL</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ins_yaw">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>20</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 16pt &quot;Noto Sans&quot;;
+color: rgb(252, 233, 79);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ins_speed">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>50</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 16pt &quot;Noto Sans&quot;;
+color: rgb(252, 233, 79);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ins_height">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>80</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 16pt &quot;Noto Sans&quot;;
+color: rgb(252, 233, 79);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_55">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>80</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>DISTANCE</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_53">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>50</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>ROLL</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_54">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>20</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>HEIGHT</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ins_roll">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>50</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 16pt &quot;Noto Sans&quot;;
+color: rgb(252, 233, 79);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ins_distance">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>80</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 16pt &quot;Noto Sans&quot;;
+color: rgb(252, 233, 79);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ins_pitch">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>20</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 16pt &quot;Noto Sans&quot;;
+color: rgb(252, 233, 79);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_14" native="true">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>145</y>
+         <width>381</width>
+         <height>115</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid rgb(255,255,255)</string>
+       </property>
+       <widget class="QLineEdit" name="lineEdit_56">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 57 8pt &quot;aakar&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>GPS.YAW</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_57">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 57 8pt &quot;aakar&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>GPS.SPEED</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_58">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>10</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 57 8pt &quot;aakar&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>HDOP</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_59">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>90</y>
+          <width>111</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 57 10pt &quot;aakar&quot;;
+border:rgb(0,0,0);</string>
+        </property>
+        <property name="text">
+         <string>Number of satellites</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_10" native="true">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>50</y>
+          <width>331</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <widget class="QLineEdit" name="lineEdit_60">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>3</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 57 8pt &quot;aakar&quot;;
+border:rgb(0,0,0);
+background-color: transparent;</string>
+         </property>
+         <property name="text">
+          <string>LONGTITUDE</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_61">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>22</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);
+font: 57 8pt &quot;aakar&quot;;
+border:rgb(0,0,0);
+background-color: transparent;</string>
+         </property>
+         <property name="text">
+          <string>LATITUDE</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_74">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>0</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+         </property>
+         <property name="text">
+          <string>123.5623</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_75">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>20</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+         </property>
+         <property name="text">
+          <string>138.6845</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_65">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>30</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+font: 57 8pt &quot;aakar&quot;;
+border:rgb(0,0,0);
+background-color: transparent;</string>
+        </property>
+        <property name="text">
+         <string>GPS.HEIGHT</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_76">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>10</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+        </property>
+        <property name="text">
+         <string>86.3</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_77">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>30</y>
+          <width>51</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+        </property>
+        <property name="text">
+         <string>100.23</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_78">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>10</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_79">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>30</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+        </property>
+        <property name="text">
+         <string>50</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_80">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>90</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLineEdit" name="height">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>100</y>
+         <width>51</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>870</x>
+         <y>170</y>
+         <width>31</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="start_x">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>10</y>
+         <width>51</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="width">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>70</y>
+         <width>51</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="start_y">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>40</y>
+         <width>51</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="other">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>130</y>
+         <width>51</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>2</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Noto Sans&quot;;
+border:rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>Gyro</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>135</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Noto Sans&quot;;
+border:rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>INS</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>135</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;Noto Sans&quot;;
+border:rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>GPS</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_62">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>20</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 57 9pt &quot;aakar&quot;;
+border:rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>Current</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_63">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>40</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 57 9pt &quot;aakar&quot;;
+border:rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>Time</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_64">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>60</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 75 9pt &quot;Padauk Book&quot;;
+border:rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>Error Code</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_66">
+       <property name="geometry">
+        <rect>
+         <x>720</x>
+         <y>80</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 57 9pt &quot;aakar&quot;;
+border:rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>Set height</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_81">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>20</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>1213</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_82">
+       <property name="geometry">
+        <rect>
+         <x>790</x>
+         <y>40</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_83">
+       <property name="geometry">
+        <rect>
+         <x>790</x>
+         <y>60</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_84">
+       <property name="geometry">
+        <rect>
+         <x>810</x>
+         <y>80</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>50</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_67">
+       <property name="geometry">
+        <rect>
+         <x>720</x>
+         <y>100</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 57 9pt &quot;aakar&quot;;
+border:rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>FM num</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_68">
+       <property name="geometry">
+        <rect>
+         <x>720</x>
+         <y>120</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 57 9pt &quot;aakar&quot;;
+border:rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>FM type</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_85">
+       <property name="geometry">
+        <rect>
+         <x>810</x>
+         <y>100</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_86">
+       <property name="geometry">
+        <rect>
+         <x>810</x>
+         <y>120</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:rgb(0,0,0);
+font: 9pt &quot;Noto Sans&quot;;
+color: rgb(255, 255, 255);
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="Waveview" name="waveplotchart">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>310</y>
+        <width>931</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);
+border:1px solid rgb(255, 255, 255);
+font: 5pt &quot;Noto Sans&quot;;
+
+
+
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="signal_choose">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>280</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton
+{
+    color:black;
+    background-color:rgb(255,255,255);
+    border: 1px solid rgb(255,255,255);
+}
+
+QPushButton:hover
+{
+    color:black;
+    background-color:rgb(238, 238, 236);
+    border: 1px solid rgb(255,255,255);
+}
+
+QPushButton:pressed
+{
+    color:black;
+    background-color:rgba(255,255,255);
+    border: 1px solid rgb(255,255,255);
+    padding-left:3px;
+    padding-top:3px;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>Signal</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="clearbutton">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>280</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    color:black;
+    background-color:rgb(255,255,255);
+    border: 1px solid rgb(255,255,255);
+}
+
+QPushButton:hover
+{
+    color:black;
+    background-color:rgb(238, 238, 236);
+    border: 1px solid rgb(255,255,255);
+}
+
+QPushButton:pressed
+{
+    color:black;
+    background-color:rgba(255,255,255);
+    border: 1px solid rgb(255,255,255);
+    padding-left:3px;
+    padding-top:3px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>clear</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_3D">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>280</y>
+        <width>80</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+    color:black;
+    background-color:rgb(255,255,255);
+    border: 1px solid rgb(255,255,255);
+}
+
+QPushButton:hover
+{
+    color:black;
+    background-color:rgb(238, 238, 236);
+    border: 1px solid rgb(255,255,255);
+}
+
+QPushButton:pressed
+{
+    color:black;
+    background-color:rgba(255,255,255);
+    border: 1px solid rgb(255,255,255);
+    padding-left:3px;
+    padding-top:3px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>3D</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QWidget" name="widget_la_long" native="true">
+      <property name="geometry">
+       <rect>
+        <x>1</x>
+        <y>520</y>
+        <width>971</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border: 1px solid white;
+border-bottom-color: rgb(136, 138, 133);
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(85, 87, 83);
+border-right-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QLabel" name="label_Latitude">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>0</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(196, 200, 220);
+color: rgb(0, 0, 0);
+font: 57 10pt &quot;aakar&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_longitude">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>0</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(196, 200, 220);
+color: rgb(0, 0, 0);
+font: 57 10pt &quot;aakar&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>0</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(196, 200, 220);
+color: rgb(0, 0, 0);
+font: 57 10pt &quot;aakar&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Latitude and longitude:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_map_rightcommand" native="true">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>0</y>
+        <width>41</width>
+        <height>520</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border-top-color: transparent;
+border: 1px solid ;
+border-bottom-color: rgb(255, 255, 255);
+background-color: rgb(196, 200, 220);
+border-left-color: rgb(85, 87, 83);
+border-right-color: rgb(255, 255, 255);
+border-top-color:white;</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_setpoint">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>40</y>
+         <width>40</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton{background-color:white; color: black;border: 1px solid ;border-left-color: rgb(136, 138, 133);border-top-color: transparent;}
+
+
+
+QToolButton:hover{background-color:white;color: black;    border: 2px groove gray;border-style: outset;}
+
+
+QToolButton:pressed{background-color:white;padding-left:3px; padding-top:3px;border-style: inset; }
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="resource/images.qrc">
+         <normaloff>:/icons/icons_10.31/map_125px_1155811_easyicon.net.ico</normaloff>
+         <normalon>:/icons/icons_10.31/ooopic_1540991670.ico</normalon>:/icons/icons_10.31/map_125px_1155811_easyicon.net.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>36</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeatInterval">
+        <number>100</number>
+       </property>
+       <property name="popupMode">
+        <enum>QToolButton::DelayedPopup</enum>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonIconOnly</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_moveflag">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>80</y>
+         <width>40</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton{background-color:white; color: black;border: 1px solid ;border-left-color: rgb(136, 138, 133);border-top-color: transparent;}
+
+
+
+QToolButton:hover{background-color:white;color: black;    border: 2px groove gray;border-style: outset;}
+
+
+QToolButton:pressed{background-color:white;padding-left:3px; padding-top:3px;border-style: inset; }
+</string>
+       </property>
+       <property name="text">
+        <string>航迹</string>
+       </property>
+       <property name="icon">
+        <iconset resource="resource/images.qrc">
+         <normaloff>:/icons/icons_10.31/move_128px_1153771_easyicon.net.ico</normaloff>
+         <normalon>:/icons/icons_10.31/move_128px_1160349_easyicon.net.ico</normalon>:/icons/icons_10.31/move_128px_1153771_easyicon.net.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>36</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="shortcut">
+        <string>Alt+M</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeatInterval">
+        <number>100</number>
+       </property>
+       <property name="popupMode">
+        <enum>QToolButton::DelayedPopup</enum>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonIconOnly</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>true</bool>
+       </property>
+       <property name="arrowType">
+        <enum>Qt::NoArrow</enum>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_mappoints_send">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>350</y>
+         <width>40</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton{background-color:white; color: black;border: 1px solid ;border-left-color: rgb(136, 138, 133);border-top-color: transparent;}
+
+
+
+QToolButton:hover{background-color:white;color: black;    border: 2px groove gray;border-style: outset;}
+
+
+QToolButton:pressed{background-color:white;padding-left:3px; padding-top:3px;border-style: inset; }
+</string>
+       </property>
+       <property name="text">
+        <string>航迹</string>
+       </property>
+       <property name="icon">
+        <iconset resource="resource/images.qrc">
+         <normaloff>:/icons/icons_10.31/download.ico</normaloff>
+         <normalon>:/icons/toolbutton/plane1.png</normalon>:/icons/icons_10.31/download.ico</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>36</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeatInterval">
+        <number>100</number>
+       </property>
+       <property name="popupMode">
+        <enum>QToolButton::DelayedPopup</enum>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonIconOnly</enum>
+       </property>
+       <property name="autoRaise">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_34" native="true">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>410</y>
+         <width>31</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:1px solid;
+border-top-color: rgb(0, 0, 0);
+border-left-color: rgb(0, 0, 0);
+border-right-color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);</string>
+       </property>
+       <widget class="QProgressBar" name="progressBar_mappoints">
+        <property name="geometry">
+         <rect>
+          <x>5</x>
+          <y>4</y>
+          <width>21</width>
+          <height>72</height>
+         </rect>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QProgressBar{
+        border: none;
+        color: black;
+        text-align: center;
+	border-left-color: rgb(255, 255, 255);
+        background: rgb(255, 255, 255);
+}
+QProgressBar::chunk {
+        border: none;
+        
+	background-color: rgb(78, 154, 6);
+	
+}
+</string>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+        <property name="textVisible">
+         <bool>false</bool>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="invertedAppearance">
+         <bool>false</bool>
+        </property>
+        <property name="textDirection">
+         <enum>QProgressBar::BottomToTop</enum>
+        </property>
+        <property name="format">
+         <string>%p%</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_33" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>-10</y>
+        <width>940</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QWebEngineView" name="widget_map" native="true">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>35</y>
+         <width>931</width>
+         <height>550</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255,255,255);
+border: 1px solid white;
+font: 57 10pt &quot;aakar&quot;;
+border-left-color: rgb(136, 138, 133);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_map_data" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>661</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+border: 1px solid ;
+background-color: rgb(196, 200, 220);
+border-top-color: rgb(255, 255, 255);
+border-left-color: rgb(136, 138, 133);
+border-bottom-color: rgb(85, 87, 83);
+border-right-color: rgb(85, 87, 83);
+
+</string>
+       </property>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>12</x>
+          <y>8</y>
+          <width>141</width>
+          <height>14</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-color: rgb(196, 200, 220);
+color: rgb(0, 0, 0);
+font: 57 10pt &quot;aakar&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Latitude and longitude:</string>
+        </property>
+       </widget>
+       <widget class="QLCDNumber" name="lcdNumber">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>3</y>
+          <width>64</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1250</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>&amp;File  </string>
+    </property>
+    <widget class="QMenu" name="menu">
+     <property name="geometry">
+      <rect>
+       <x>396</x>
+       <y>131</y>
+       <width>200</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="tearOffEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string>数据库</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource/images.qrc">
+       <normaloff>:/icons/icons_10.31/data_database_128px_10863_easyicon.net.ico</normaloff>:/icons/icons_10.31/data_database_128px_10863_easyicon.net.ico</iconset>
+     </property>
+     <property name="toolTipsVisible">
+      <bool>false</bool>
+     </property>
+     <addaction name="action_4"/>
+     <addaction name="action_5"/>
+    </widget>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>配置</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resource/images.qrc">
+       <normaloff>:/icons/icons_10.31/configure_48px_27166_easyicon.net.ico</normaloff>:/icons/icons_10.31/configure_48px_27166_easyicon.net.ico</iconset>
+     </property>
+     <addaction name="action_8"/>
+    </widget>
+    <addaction name="menu"/>
+    <addaction name="menu_2"/>
+    <addaction name="action_9"/>
+    <addaction name="action_10"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>&amp;Command control </string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>3&amp;D display  </string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSerial">
+    <property name="title">
+     <string>&amp;Serial port configuration  </string>
+    </property>
+    <addaction name="action_16"/>
+    <addaction name="action_17"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>&amp;User Interface</string>
+    </property>
+    <addaction name="action_11"/>
+    <addaction name="action_12"/>
+    <addaction name="action_13"/>
+    <addaction name="action_14"/>
+    <addaction name="action_15"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menuSerial"/>
+   <addaction name="menuWindow"/>
+  </widget>
+  <action name="actionA">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/gyro/images/26089.icon</normaloff>:/gyro/images/26089.icon</iconset>
+   </property>
+   <property name="text">
+    <string>A</string>
+   </property>
+  </action>
+  <action name="actionB">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/gyro/images/airplane_128px_504423_easyicon.net(1).ico</normaloff>:/gyro/images/airplane_128px_504423_easyicon.net(1).ico</iconset>
+   </property>
+   <property name="text">
+    <string>B</string>
+   </property>
+  </action>
+  <action name="actionC">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/gyro/images/book_64px_29778_easyicon.net.ico</normaloff>:/gyro/images/book_64px_29778_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>C</string>
+   </property>
+  </action>
+  <action name="actionD">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/gyro/images/network_128px_27647_easyicon.net.ico</normaloff>:/gyro/images/network_128px_27647_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>D</string>
+   </property>
+  </action>
+  <action name="actionE">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/gyro/images/refresh_128px_27810_easyicon.net.ico</normaloff>:/gyro/images/refresh_128px_27810_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>E</string>
+   </property>
+  </action>
+  <action name="actionF">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/gyro/images/tool_tools_128px_524021_easyicon.net.ico</normaloff>:/gyro/images/tool_tools_128px_524021_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>F</string>
+   </property>
+  </action>
+  <action name="actionG">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/gyro/images/video_128px_26776_easyicon.net.ico</normaloff>:/gyro/images/video_128px_26776_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>G</string>
+   </property>
+  </action>
+  <action name="actionH">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/gyro/images/wave_sound_128px_523099_easyicon.net.ico</normaloff>:/gyro/images/wave_sound_128px_523099_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>H</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>打开数据库</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>打开配置</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>遥测界面</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="text">
+    <string>地图界面</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>设置界面</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="text">
+    <string>参数检验</string>
+   </property>
+  </action>
+  <action name="action_15">
+   <property name="text">
+    <string>波形选择</string>
+   </property>
+  </action>
+  <action name="action_16">
+   <property name="text">
+    <string>打开串口</string>
+   </property>
+  </action>
+  <action name="action_17">
+   <property name="text">
+    <string>关闭串口</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>Visualization</class>
+   <extends>QGraphicsView</extends>
+   <header>visualization.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header>qwebengineview.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Waveview</class>
+   <extends>QGraphicsView</extends>
+   <header>waveview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resource/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
